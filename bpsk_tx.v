@@ -32,10 +32,10 @@ CORDIC cordic_inst (
 
 // BPSK modulation
 bpsk_mod mod_inst (
-    .clk(clk),
-    .bit_in(bit_in),
     .carrier(cosine),
+    .bit_in(bit_in),
     .bpsk_out(bpsk_out)
 );
+
 
 endmodule
