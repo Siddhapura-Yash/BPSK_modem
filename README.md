@@ -128,6 +128,8 @@ The waveform shows the phase inversion of the carrier corresponding to the input
 2. Assign clock and reset pins.
 3. Route the output to a DAC or GPIO.
 4. Observe the waveform using measurement equipment.
-
+   
+--- 
+The design has been verified through software simulation and FPGA implementation will be carried out in future work.
 
 
